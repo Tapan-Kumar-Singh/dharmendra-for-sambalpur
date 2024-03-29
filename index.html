@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&family=Unna&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.carousel.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.theme.default.min.css" rel="stylesheet">
     <title>Dharmendra For Sambalpur</title>
     <link rel="icon" type="image/png" href="/images/feb_icon.png">
   </head>
@@ -74,28 +76,19 @@
         <span class="sr-only">Next</span>
       </button>
     </div>
-  <div class="container">
-    <div class="row sponcer-row">
-      <div class="col-lg-2 col-md-2 col-sm-6 col-xm-6 text-center sponcer-logo">
-        <img src="images/sponcers/state_partner.png" alt="" srcset="">
-      </div>
-      <div class="col-lg-2 col-md-2 col-sm-6 col-xm-6 text-center sponcer-logo">
-        <img src="images/sponcers/state_partner2.png" alt="" srcset="">
-      </div>
-      <div class="col-lg-2 col-md-2 col-sm-6 col-xm-6 text-center sponcer-logo">
-        <img src="images/sponcers/partner1.png" alt="" srcset="">
-      </div>
-      <div class="col-lg-2 col-md-2 col-sm-6 col-xm-6 text-center sponcer-logo">
-        <img src="images/sponcers/partner2.png" alt="" srcset="">
-      </div>
-      <div class="col-lg-2 col-md-2 col-sm-6 col-xm-6 text-center sponcer-logo">
-        <img src="images/sponcers/travel_partner.png" alt="" srcset="">
-      </div>
-      <div class="col-lg-2 col-md-2 col-sm-6 col-xm-6 text-center sponcer-logo">
-        <img src="images/sponcers/travel_partner2.png" alt="" srcset="">
-      </div>
-      </div>
-    </div>
+    <section class="logo-slider">
+    <div class="container">
+    <div class="owl-carousel owl-theme sponcer-row">
+    <div class="item text-center sponcer-logo"><img src="images/sponcers/state_partner.png" alt="" srcset=""></div>
+    <div class="item text-center sponcer-logo"><img src="images/sponcers/state_partner2.png" alt="" srcset=""></div>
+    <div class="item text-center sponcer-logo"><img src="images/sponcers/partner1.png" alt="" srcset=""></div>
+    <div class="item text-center sponcer-logo"><img src="images/sponcers/partner2.png" alt="" srcset=""></div>
+    <div class="item text-center sponcer-logo"><img src="images/sponcers/travel_partner.png" alt="" srcset=""></div>
+    <div class="item text-center sponcer-logo"><img src="images/sponcers/travel_partner2.png" alt="" srcset=""></div>
+  </div>
+</div>
+</section>
+</div>
     
     <div class="container">
       <div class="row my-3">
@@ -560,6 +553,41 @@
     <!-- Optional JavaScript; choose one of the two! -->
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script>
+  $(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+      items: 1,
+    loop: true,
+    loop:true,
+    margin:10,
+    dots: false,
+    autoplayTimeout:3000,
+    responsiveClass:true,
+    lazyLoad: true,
+    autoplayHoverPause:true,
+    nav:false,
+    responsive:{
+        0:{
+            items:3,
+            loop:true,
+            autoplay:true
+        },
+        600:{
+            items:4,
+            loop:true,
+            autoplay:true
+        },
+        1000:{
+            items:6,
+            loop:true,
+            autoplay:true,
+        }
+    }
+    });
+  });
+</script>
   </body>
 </html>

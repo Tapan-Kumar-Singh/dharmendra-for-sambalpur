@@ -43,8 +43,6 @@ button.navbar-toggler.togglor-icon i {
     width: 150px;
 }
 .sponcer-row{
-    margin-left: 30px;
-    margin-right: 30px;
     margin-top: 30px;
 }
 .mobile-sponcer-row{
@@ -183,6 +181,16 @@ button.navbar-toggler.togglor-icon i {
     color: #fff;
     text-decoration: none;
 }
+.owl-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .item img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
 
 /* ABOUT US PAGE DESIGN  */
 .about-argus-news-col img{
@@ -268,9 +276,6 @@ button.navbar-toggler.togglor-icon i {
     .sponcer-logo img{
         width: 90px;
         height: 60px;
-    }
-    .sponcer-row{
-        display: none;
     }
     .mobile-sponcer-row{
         display: block;
