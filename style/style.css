@@ -1,11 +1,15 @@
 body{
     margin: 0px;
     padding: 0px;
-    background: rgb(232, 232, 232);
-    background: radial-gradient(circle, rgb(239, 219, 151) 0%, rgb(243, 226, 182) 100%);
     font-family: 'Crimson Text', serif;
     font-family: 'Unna', serif;
     overflow-x: hidden;
+    background-image: url("../images/body_background_images.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #000;
+    color: #fff;
 }
 .top-nav{
     background: rgb(21, 20, 20);
@@ -49,9 +53,12 @@ button.navbar-toggler.togglor-icon i {
     display: none;
 }
 .know-more-button{
-    border: 2px solid #dead4f;
+    background: linear-gradient(to right, #9f5741, #be7763);
     font-weight: bold;
-    color: #e40a0f;
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 0;
 }
 .live-tv-section iframe{
     height: 519px;
@@ -59,13 +66,20 @@ button.navbar-toggler.togglor-icon i {
 .live-tv-text{
     text-align: justify;
     text-align: center;
+    color: #d0c4be;
+    text-shadow: 1px 1px 3px #000;
 }
 .live-tv-text h3{
-    color: #e40a0f;
+    color: #d0c4be;
     font-weight: bolder;
     text-transform: uppercase;
     padding-top: 10px;
     padding-bottom: 20px;
+    text-shadow: 1px 1px 3px #000;
+    border: double #d0c4be; 
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 .shoots-section-col iframe{
     width: 100%;
@@ -83,14 +97,20 @@ button.navbar-toggler.togglor-icon i {
 }
 .season-details-col h2{
     text-transform: uppercase;
-    border-bottom: 3px dotted #000;
+    border-bottom: double#d0c4be;
+    text-shadow: 1px 1px 3px #000;
     font-size: 30px;
-    color: #f10707;
+    color: #d0c4be;
     font-weight: bolder;
     padding-bottom: 20px;
 }
 .session-description h3{
     text-transform: uppercase;
+}
+
+.session-description p{
+    color: #d0c4be;
+    text-shadow: 1px 1px 3px #000;
 }
 .videos-section-col iframe{
     width: 100%;
@@ -223,13 +243,14 @@ button.navbar-toggler.togglor-icon i {
 .portfolio-card-header{
     color: #000;
     border-radius: 0;
+    background-image: linear-gradient(to right, #9f5741 , #be7763);
 }
 .portfolio-card-body{
     border: 0px;
-    background-color: antiquewhite;
+    background-color: #333;
 }
 .portfolio-card-footer{
-    background-color: #f10707;
+    background-image: linear-gradient(to right, #956362, #a3645b);
     color: #fff;
 }
 .sssv-text{
