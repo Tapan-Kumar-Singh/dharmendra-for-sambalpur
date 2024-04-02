@@ -12,8 +12,8 @@ body{
     color: #fff;
 }
 .top-nav{
-    background: rgb(21, 20, 20);
-    background: radial-gradient(circle, rgb(20, 19, 18) 0%, rgb(10, 9, 9) 100%);
+    background: radial-gradient(circle, rgb(228 205 180) 0%, rgb(160 88 66) 100%);
+    color: #000;
 }
 .dropdown-background{
     background: rgb(251,208,87);
@@ -23,9 +23,9 @@ body{
     height: 60px;
 }
 .live-tv-btn{
-    background: rgb(232,9,11);
     color: #fff;
     font-weight: bold;
+    border: 1px solid #c3ac9e;
 }
 button.navbar-toggler.togglor-icon i {
     font-size: 17px;
@@ -86,14 +86,20 @@ button.navbar-toggler.togglor-icon i {
     height: 370px;
 }
 .shoots-heading{
-    border-bottom: 3px dotted #000;
     margin-bottom: 30px;
     text-transform: uppercase;
 }
 .shoots-heading h2{
-    font-size: 25px;
+    color: #d0c4be;
+    font-weight: bolder;
     text-transform: uppercase;
-    color: #f10707;;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-shadow: 1px 1px 3px #000;
+    border: double #d0c4be;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 .season-details-col h2{
     text-transform: uppercase;
@@ -121,8 +127,9 @@ button.navbar-toggler.togglor-icon i {
 }
 .gallery-btn{
     font-size: 8px;
-    background: rgb(251,208,87);
-    background: radial-gradient(circle, rgba(251,208,87,1) 0%, rgba(198,145,73,1) 100%);
+    font-weight: lighter;
+    color: #fff;
+    background-image: linear-gradient(to right, #956362, #a3645b);
     color: #fff;
 
 }
@@ -141,22 +148,23 @@ button.navbar-toggler.togglor-icon i {
     padding-top: 10px;
     padding-bottom: 10px;
     width: fit-content;
-    background: radial-gradient(circle, rgba(251,208,87,1) 0%, rgba(198,145,73,1) 100%);
-    margin-bottom: 20px;
+    font-weight: lighter;
+    color: #fff;
+    background-image: linear-gradient(to right, #956362, #a3645b);
 }
 .read-more-button:hover{
     text-decoration: none;
     color: #333;
 }
 .read-mores{
-    color: #000;
+    color: #fff;
     text-decoration: none;
 }
 .card-body {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     /* min-height: 1px; */
-    padding: 1.25rem;
+    padding: 1rem;
     height: 214px;
     overflow: hidden;
 }
@@ -166,16 +174,26 @@ button.navbar-toggler.togglor-icon i {
 }
 .atricle-text h1{
     font-size: 18px;
+    color: #000;
 }
 .atricle-text p{
     font-size: 15px;
-    height: 89px;
+    height: 69px;
     overflow: hidden;
+    color: #000;
+}
+.shoots-section-col iframe {
+    border: 1px solid #736565;
+    padding: 14px;
+}
+.videos-section-col iframe {
+    border: 1px solid #6e6e6e;
+    padding: 14px;
 }
 .article-footer{
-    background: rgb(251,208,87);
-    background: radial-gradient(circle, rgba(251,208,87,1) 0%, rgba(198,145,73,1) 100%);
-    font-weight: bold;
+    font-weight: lighter;
+    color: #fff;
+    background-image: linear-gradient(to right, #956362, #a3645b);
     color: #fff;
 }
 .article-footer a{
@@ -355,4 +373,5 @@ button.navbar-toggler.togglor-icon i {
   
   .carousel-multi-item-2 .card img {
     border-radius: 2px;
+    padding: 4px;
   }
