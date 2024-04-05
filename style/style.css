@@ -64,8 +64,7 @@ button.navbar-toggler.togglor-icon i {
     height: 519px;
 }
 .live-tv-text{
-    text-align: justify;
-    text-align: center;
+    text-align: left;
     color: #d0c4be;
     text-shadow: 1px 1px 3px #000;
 }
@@ -277,6 +276,20 @@ button.navbar-toggler.togglor-icon i {
 .box-size{
     height: 380px;
     overflow: hidden;
+}
+
+.top-project-ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.top-project-ul li{
+    background-image: linear-gradient(to right, #956362, #a3645b);
+    color: #fff;
+    margin-top: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
 }
 /* ======================================================================================================================================= */
 
