@@ -11,6 +11,9 @@ body{
     background-color: #000;
     color: #fff;
 }
+a:hover{
+    color: #fff !important;
+}
 .top-nav{
     background: radial-gradient(circle, rgb(228 205 180) 0%, rgb(160 88 66) 100%);
     color: #000;
